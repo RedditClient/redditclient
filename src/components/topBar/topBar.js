@@ -32,9 +32,9 @@ export class TopBar extends React.Component {
                 <button className='nav' onClick={this.click}><img src={navImg} alt='nav button'/></button>
 
                 <div id="mySidenav" className="sidenav">
-                    <a  href="#" className="closebtn" onClick={this.close}>&times;</a>
-                    <a href="#">HOME</a>
-                    <a href="#">ABOUT</a>
+                    <a  href="/" className="closebtn" onClick={this.close}>&times;</a>
+                    <a href="/home">HOME</a>
+                    <a href="/about">ABOUT</a>
                     </div>
 
             </div>
