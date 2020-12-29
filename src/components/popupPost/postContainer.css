@@ -1,0 +1,133 @@
+.title{
+    color: whitesmoke;
+    font-size: 12px;
+    width: 320px;
+    text-align: left;
+    display: flex;
+    margin-left: 20px;
+}
+.post{
+    width: 450px;
+    height: auto;
+    background-color: #1B2426;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+#thumbnail{
+    width: 450px;
+    height: auto;
+}
+.logo_post {
+    height: 20px;
+    width: 10px;
+    position: fixed;
+    top: 0;
+    right: 60px;
+
+}
+#topBox{
+    display: flex;
+
+}
+#author{
+    display: flex;
+    margin-right: 20px;
+    color: #FF4500;
+    font-size: 12px;
+    height: 20px;
+    margin-left: 20px;
+}
+a{
+    height: 20px;
+    text-decoration: underline;
+    color: #FF4500;
+
+}
+#followpic {
+    width: 20px;
+    height: 20px;
+    margin: auto 0;    
+    margin-right: 8px;
+
+}
+#followers{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 8px;
+}
+#commentpic {
+    width: 20px;
+    height: 20px;
+    margin: auto 0;    
+    margin-right: 8px;
+
+}
+#comment{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.infos{
+    display: flex;
+}
+
+@media only screen and (max-width: 1020px) {
+    #topBox{
+        display: block;
+    
+    }
+    a{
+        height: 20px;
+        text-decoration: underline;
+        color: #FF4500;
+    
+    }
+    #author{
+        display: block;
+        color: #FF4500;
+        font-size: 12px;
+        height: 20px;
+        text-align: center;
+        padding-right: 10px;
+
+    }
+    .title{
+        color: whitesmoke;
+        font-size: 12px;
+        width: 250px;
+        text-align: center;
+        display: block;
+    }
+    .post{
+        width: 300px;
+        height: auto;
+        background-color: #1B2426;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 30px;
+        border-radius: 10px;
+    
+    
+    }
+    #thumbnail{
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+   
+  }

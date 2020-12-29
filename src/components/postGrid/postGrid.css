@@ -1,0 +1,74 @@
+
+.grid{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -9999;
+    overflow:auto;
+    flex-direction: column;
+
+}
+
+.gridBox{
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+.gridBox img{
+    margin-top: 20px;
+    width: 550px;
+}
+.loadmore{
+    margin-top: 30px;
+    background-color: #FF4500;
+    color: white;
+    text-transform: uppercase;
+    height: 40px;
+    border: 0;
+    border-radius: 56px;
+    width: 120px;
+    transition: all 0.2s linear;
+    outline: none;
+    cursor: pointer;
+   
+}
+.loadmore:hover{
+    background-color: black;
+}
+@media only screen and (max-width: 1020px) {
+    .loadmore{
+        margin-top: 10px;
+        background-color: #FF4500;
+        color: white;
+        text-transform: uppercase;
+        height: 40px;
+        border: 0;
+        border-radius: 56px;
+        width: 120px;
+        transition: all 0.2s linear;
+        outline: none;
+        cursor: pointer;
+       
+    }
+    .gridBox{
+        width: 450px;
+        height: 500;
+        border-radius: 10px;
+        overflow: scroll;
+    
+    }
+    .gridBox img{
+        margin-top: 20px;
+        width: 450px;
+    }
+  }

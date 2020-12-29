@@ -1,0 +1,13 @@
+.footer{
+    background-color: #1B2426;
+    height: 59px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+ .icon_footer{
+    margin-top: 8px;
+    width: 44px;
+    height: 44px;
+}
